@@ -55,5 +55,6 @@ RUN mkdir -p /home/devuser/.composer && \
 
 #7. Writable cache permission
 RUN chmod 777 -R /var/www/html/writable
+RUN chmod 777 -R /var/www/html/public
 
 EXPOSE 80
