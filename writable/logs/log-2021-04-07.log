@@ -1,0 +1,9 @@
+CRITICAL - 2021-04-07 09:11:54 --> Invalid file: datamaster/academiccommunity.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('datamaster/acad...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('datamaster/acad...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\DataMaster.php(13): view('datamaster/acad...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\DataMaster->academiccommunitylist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMaster))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

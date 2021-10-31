@@ -1,0 +1,123 @@
+CRITICAL - 2021-03-11 08:43:54 --> Undefined variable: isi
+#0 D:\job\Software\xampp\htdocs\sentrahki\app\Views\layout\v_content.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\job\\Software...', 25, Array)
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(220): include('D:\\job\\Software...')
+#2 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#4 D:\job\Software\xampp\htdocs\sentrahki\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(220): include('D:\\job\\Software...')
+#6 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\Home.php(12): view('layout/v_wrappe...', Array)
+#9 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#10 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\job\Software\xampp\htdocs\sentrahki\index.php(43): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-03-11 11:22:31 --> Invalid file: Intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('Intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('Intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:26:07 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:27:32 --> Invalid file: datamaster/academiccommunity.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('datamaster/acad...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('datamaster/acad...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\DataMaster.php(12): view('datamaster/acad...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\DataMaster->academiccommunitylist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMaster))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:27:54 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:32:47 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:35:25 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:35:28 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:37:45 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:39:10 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:39:22 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:40:03 --> Invalid file: intellectualproperty/patent/patenlist.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('intellectualpro...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('intellectualpro...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\IntellectualProperty.php(12): view('intellectualpro...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\IntellectualProperty->patentlist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IntellectualProperty))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 11:40:34 --> Invalid file: datamaster/academiccommunity.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('datamaster/acad...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('datamaster/acad...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\DataMaster.php(12): view('datamaster/acad...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\DataMaster->academiccommunitylist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMaster))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2021-03-12 02:29:51 --> Invalid file: datamaster/academiccommunity.php
+#0 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('datamaster/acad...')
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('datamaster/acad...', Array, true)
+#2 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\DataMaster.php(12): view('datamaster/acad...', Array)
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\DataMaster->academiccommunitylist()
+#4 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMaster))
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-12 02:35:29 --> Undefined variable: subtitle
+#0 D:\job\Software\xampp\htdocs\sentrahki\app\Views\datamaster\FacultyList.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\job\\Software...', 15, Array)
+#1 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(220): include('D:\\job\\Software...')
+#2 D:\job\Software\xampp\htdocs\sentrahki\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\job\Software\xampp\htdocs\sentrahki\system\Common.php(1217): CodeIgniter\View\View->render('datamaster/facu...', Array, true)
+#4 D:\job\Software\xampp\htdocs\sentrahki\app\Controllers\DataMaster.php(28): view('datamaster/facu...', Array)
+#5 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(936): App\Controllers\DataMaster->facultylist()
+#6 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMaster))
+#7 D:\job\Software\xampp\htdocs\sentrahki\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\job\Software\xampp\htdocs\sentrahki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
